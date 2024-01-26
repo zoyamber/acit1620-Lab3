@@ -46,6 +46,13 @@ nav {
    padding-top: -7rem;
 }
 
+nav ul li:hover{
+  background-color: teal;
+}
+
+nav ul a:hover{
+  color: white;
+}
 nav ul li{
    list-style: none;
    margin-top: 15px;
@@ -102,7 +109,15 @@ h2 {
   margin-top: 1rem;
 }
 
+h3 {
+  margin-top: -6rem;
+  margin-left: 11rem;
+  font-size: 20px;
+}
 
+form {
+  margin-left: 11rem;
+}
 
  @media screen and (max-width: 600px) {
    
