@@ -92,8 +92,15 @@ footer{
   text-align: center;
 }
 
+h2 {
+  margin-top: -6rem;
+  margin-left: 11rem;
+}
 
-
+.p4{
+  margin-left: 11rem;
+  margin-top: 1rem;
+}
 
 
 
