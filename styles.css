@@ -31,63 +31,52 @@ form button {
 
  /* header styles */
 
- header {
-   background-color: teal;
-   color: black;
-   padding: 1rem;
-   margin-bottom: 1rem;
-   text-align: center;
-}
-
-nav {
-   padding-top: 1rem;
-   list-style-type: none;
-   padding-right: 80rem;
-   padding-top: -7rem;
-}
-
-nav ul li:hover{
+header{
   background-color: teal;
+  text-align: center;
+  padding: 1rem;
 }
 
-nav ul a:hover{
-  color: white;
-}
-nav ul li{
-   list-style: none;
-   margin-top: 15px;
-   text-align: right;
+ul li{
+  list-style: none;
+  padding: 9px;
+  text-align: right;
+  padding-right: 75rem;
 }
 
-nav ul li a{
-  text-decoration: none;
+ul li a{
   color: teal;
+  text-decoration: none;
 }
 
-img {
-   padding-left: 11rem;
-   width: 250px;
-   height: 150px;
-   margin-top: -7.5rem;
+.img{
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin-left: 230px;
+  margin-top: -115px;
 }
 
 .p1 {
-  margin-top: -9rem;
-  margin-left: 28rem;
+  margin-top: -9.5rem;
+  margin-left: 31rem;
   font-size: 19px;
 }
 
+
 .p2{
-  margin-left: 28rem;
+  margin-left: 31rem;
   margin-top: 1rem;
   font-size: 19px;
 }
 
+
 .p3{
-  margin-left: 11rem;
+  margin-left: 14.5rem;
   margin-top: 2rem;
   font-size: 19px;
 }
+
 
 footer{
   background-color: teal;
@@ -99,26 +88,27 @@ footer{
   text-align: center;
 }
 
+
 h2 {
-  margin-top: -6rem;
-  margin-left: 11rem;
+  margin-top: -7rem;
+  margin-left: 15rem;
 }
+
 
 .p4{
-  margin-left: 11rem;
+  margin-left: 15rem;
   margin-top: 1rem;
+  font-size: 19px;
 }
 
+
 h3 {
-  margin-top: -6rem;
-  margin-left: 11rem;
+  margin-top: -7rem;
+  margin-left: 15rem;
   font-size: 20px;
 }
 
-form {
-  margin-left: 11rem;
-}
 
- @media screen and (max-width: 600px) {
-   
- }
+form {
+  margin-left: 15rem;
+}
